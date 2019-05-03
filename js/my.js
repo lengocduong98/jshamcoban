@@ -18,7 +18,7 @@
             if (a>b)
             alert('min của 2 số là: '+(b));
             else
-            alert ('min của 2 số là: '+(a));
+            alert ('min của 2 số là: '+(a))
         }
         let soa=prompt("mời nhập số a");
         let sob=prompt("mời nhập số b");
