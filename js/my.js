@@ -1,11 +1,11 @@
 //--------x mũ n-----------
     // hàm
-        // function so_mu(x,n){
-        //     alert('x mũ n bằng: '+(x**n));           //document.write('Mũ là ' + (x**n));
-        // }
-        // let so1=prompt("mời nhập hệ số ");
-        // let so2=prompt("mời nhập số mũ");
-        // so_mu(so1,so2)
+        function so_mu(x,n){
+            alert('x mũ n bằng: '+(x**n));           //document.write('Mũ là ' + (x**n));
+        }
+        let so1=prompt("mời nhập hệ số ");
+        let so2=prompt("mời nhập số mũ");
+        so_mu(so1,so2)
     //k hàm
         // let a=prompt("mời nhập hệ số ");
         // let x=prompt("mời nhập số mũ");
