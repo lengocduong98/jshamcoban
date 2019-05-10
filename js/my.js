@@ -1,11 +1,31 @@
+// ---yesno question----
+    // let ask=(question, yes, no) => {
+    //     if (confirm(question)) yes()
+    //     else no();
+    //   }	
+    
+    //   ask(
+    //     "Do you agree?",
+    //     function() { alert("You agreed."); },
+    //     function() { alert("You canceled the execution."); }
+    //   );
+
+//   ----change for to while----
+  let i=0;
+  while (i<5){
+    alert( `number ${i}!` );
+    i++;
+  }
+ 
+
 //--------x mũ n-----------
     // hàm
-        function so_mu(x,n){
-            alert('x mũ n bằng: '+(x**n));           //document.write('Mũ là ' + (x**n));
-        }
-        let so1=prompt("mời nhập hệ số ");
-        let so2=prompt("mời nhập số mũ");
-        so_mu(so1,so2)
+        // function so_mu(x,n){
+        //     alert('x mũ n bằng: '+(x**n));           //document.write('Mũ là ' + (x**n));
+        // }
+        // let so1=prompt("mời nhập hệ số ");
+        // let so2=prompt("mời nhập số mũ");
+        // so_mu(so1,so2) 
     //k hàm
         // let a=prompt("mời nhập hệ số ");
         // let x=prompt("mời nhập số mũ");
@@ -14,15 +34,15 @@
 
 //---------min của 2 số---------
     //hàm
-        function min2so(a,b){
-            if (a>b)
-            alert('min của 2 số là: '+(b));
-            else
-            alert ('min của 2 số là: '+(a));
-        }
-        let soa=prompt("mời nhập số a");
-        let sob=prompt("mời nhập số b");
-        min2so(soa,sob);
+        // function min2so(a,b){
+        //     if (a>b)
+        //     alert('min của 2 số là: '+(b));
+        //     else
+        //     alert ('min của 2 số là: '+(a));
+        // }
+        // let soa=prompt("mời nhập số a");
+        // let sob=prompt("mời nhập số b");
+        // min2so(soa,sob);
     //k hàm    
         // let a=prompt("mời nhập số a");
         // let b=prompt("mời nhập số b");
