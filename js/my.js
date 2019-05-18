@@ -1,22 +1,85 @@
-// ---yesno question----
-    // let ask=(question, yes, no) => {
-    //     if (confirm(question)) yes()
-    //     else no();
-    //   }	
-    
-    //   ask(
-    //     "Do you agree?",
-    //     function() { alert("You agreed."); },
-    //     function() { alert("You canceled the execution."); }
-    //   );
+//mảng
+// let nV1 = {
+//     ten :"duong",
+//     luong: 1000
 
-//   ----change for to while----
-  let i=0;
-  while (i<5){
-    alert( `number ${i}!` );
-    i++;
-  }
- 
+// }
+// let nV2 = {
+//     ten : "duy",
+//     luong : 1000
+// }
+// let nV3 = {
+//     ten : "huy",
+//     luong : 500
+// }
+// let sum = 0;
+// for(let i=0;i<arrs.length;i++){
+//    sum = arrs[i].luong + sum; 
+// }
+// alert(sum);
+
+let nV1 {};
+
+
+
+// function deleteObj(arrs){
+    
+//     let  choose =prompt("xoa o vi tri nao ?",);
+//         for ( let i=0;i<=length;i++){
+//             if(i=choose){
+            
+//             console.log(arrs.splice(i,1));
+//         }
+//             else 
+//             console.log(arrs.splice(i,1));
+//         }
+
+        
+// }
+
+// deleteObj(arrs);
+
+
+
+// let salaries = {
+//     John: 10,
+//     Ann: 16,
+//     Pete: 13
+//   };
+//   let sum=0;
+// function isEmpty(obj) {
+//     for (let key in obj) {   
+//       return false;
+//     }
+//     return true;
+//   }
+// if(isEmpty(salaries)){
+//    alert(`kq ${sum}`);
+// }else {
+//     for(let luong in salaries){
+//         sum=sum+salaries[luong];
+//     }
+//     alert(`kq ${sum}`);
+// }
+//----Bài 2----
+// let menu = {
+//     width: 20,
+//     height: 30,
+//     title: "My menu"
+//   };
+// function multiplyNumeric(object) {
+//     for(let type in object){
+//         if(typeof object[type]=='number'){
+//             object[type]=object[type]*2;
+//             alert(object[type]);
+//         }else {
+//         alert(object[type]);
+//         }
+//     }
+// }
+// multiplyNumeric(menu);
+  
+
 
 //--------x mũ n-----------
     // hàm
@@ -31,6 +94,29 @@
         // let x=prompt("mời nhập số mũ");
         // c=a**x;
         // alert(c);
+
+// ---yesno question----
+    // let ask=(question, yes, no) => {
+    //     if (confirm(question)) yes()
+    //     else no();
+    //   }	
+    
+    //   ask(
+    //     "Do you agree?",
+    //     function() { alert("You agreed."); },
+    //     function() { alert("You canceled the execution."); }
+    //   );
+
+
+
+//   ----change for to while----
+//   let i=0;
+//   while (i<5){
+//     alert( `number ${i}!` );
+//     i++;
+//   }
+ 
+
 
 //---------min của 2 số---------
     //hàm
