@@ -11,15 +11,30 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="js/jquery-3.4.1.js"></script>  
     <script>
-            $(document).ready(function(){
+        $(document).ready(function(){
+      let nV1 = {
+    ten :"duong",
+    luong: 1000
+
+    }
+    let nV2 = {
+        ten : "duy",
+        luong : 1000
+    }
+    let nV3 = {
+        ten : "huy",
+        luong : 500
+    }
+    
+    let arrs=[nV1,nV2,nV3]
+       let nv = {}     
                 $("#btnthem").click(function(){
-                    let ten = $("#txtten").val();
-                    // alert(ten);
+                    nv.ten = $("#txtten").val();
+                    nv.luong = $("#txtluong").val();
+                    arrs.splice(2,0,nv);
+                    console.log(arrs);// alert(ten);
                 });
-                $("#btnthem").click(function(){
-                    let luong = $("#txtluong").val();
-                    alert(luong);
-                });
+                
             });
         </script>
         

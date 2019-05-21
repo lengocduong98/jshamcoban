@@ -18,7 +18,16 @@
 // }
 // alert(sum);
 
-let nV1 {};
+// let nV1 = {};
+// prompt=("moi nhap ten",ten.nV1);
+// ten.nV1=("");
+// luong.nV1=(5000);
+// let nV2 = {};
+// ten.nV2=("duy");
+// luong.nV2=(2000);
+// let nV3 = {};
+// ten.nV3=("huy");
+// luong.nV3=(1000);
 
 
 
