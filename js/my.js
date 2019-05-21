@@ -12,11 +12,12 @@
 //     ten : "huy",
 //     luong : 500
 // }
-// let sum = 0;
-// for(let i=0;i<arrs.length;i++){
-//    sum = arrs[i].luong + sum; 
-// }
-// alert(sum);
+let sum = 0;
+for(let i=0;i<arrs.length;i++){
+   sum = arrs[i].luong + sum; 
+}
+
+alert(sum);
 
 // let nV1 = {};
 // prompt=("moi nhap ten",ten.nV1);
